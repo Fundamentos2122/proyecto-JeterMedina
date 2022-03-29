@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol {
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+}
+
+hr{
+    margin-top: 1em;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 0.5em;
+}
+
+h1{
+    color: white;
+}
+
+.menu{
+    color: white;
+    margin-top: 1em;
+}
+
+h2{
+    text-align: center;
+    font-size: 10em;
+}
+
+.slogan{
+    background-image: url("https://picsum.photos/1000");
+    padding: 2em;
+    margin: 1em;
+    border-radius: 0.5em 0.5em 0 0;
+}
