@@ -1,3 +1,9 @@
+:root{
+    --borde-radio: 0.5rem;
+    --padding-x: 0.5rem;
+    --padding-y: 0.25rem;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Century Gothic', sans-serif;
@@ -57,4 +63,36 @@ h2{
     padding: 2em;
     margin: 1em;
     border-radius: 0.5em 0.5em 0 0;
+}
+
+.grupo-producto > .producto{
+    width: 33%;
+    display: inline-block;
+    padding: 3em;
+}
+
+.grupo-producto{
+    padding: 1em;
+    color: white;
+}
+
+.producto{
+    border-radius: var(--borde-radio);
+    margin-bottom: 0.5em;
+}
+
+.img-producto{
+    border-radius: var(--borde-radio) var(--borde-radio);
+    max-width: 100%;
+}
+
+.titulo{
+    padding: var(--padding-y) var(--padding-x);
+    font-size: 1.25em;
+    color: red;
+}
+
+.descripcion{
+    text-align: justify;
+    padding: 0 var(--padding-x);
 }
