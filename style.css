@@ -59,10 +59,12 @@ h2{
 }
 
 .slogan{
-    background-image: url("https://picsum.photos/1000");
+    background-image: url("https://picsum.photos/600");
+    background-size: cover;
+    background-position: center;
     padding: 2em;
     margin: 1em;
-    border-radius: 0.5em 0.5em 0 0;
+    border-radius: 0.5em;
 }
 
 .grupo-producto > .producto{
@@ -86,13 +88,66 @@ h2{
     max-width: 100%;
 }
 
-.titulo{
+.titulo-producto{
     padding: var(--padding-y) var(--padding-x);
     font-size: 1.25em;
     color: red;
 }
 
-.descripcion{
+.descripcion-prodcuto{
     text-align: justify;
     padding: 0 var(--padding-x);
+}
+
+.explicacion{
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.explicacion-interior{
+    background-color: black;
+    width: 50%;
+    margin-right: 3em;
+    height: 500px;
+    display:grid;
+    align-items: center;
+    margin-left: 1em;
+}
+
+h4,h5{
+    color: khaki;
+    text-align: center;
+    font-size: 3em;
+}
+
+.centrado{
+    color: white;
+    text-align: center;
+}
+
+.quienes-somos{
+    background-color:khaki;
+    width: 100%;
+}
+
+.imagen{
+    background-image: url("https://picsum.photos/400");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.botones{
+    margin-left: 48%;
+    height: 5em;
+    width: 5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-redes{
+    width: 100%;
 }
