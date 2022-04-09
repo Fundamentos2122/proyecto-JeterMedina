@@ -267,3 +267,42 @@ li{
 }
 
 /* Creditos a  https://getcssscan.com/css-buttons-examples*/
+
+.login-pantalla{
+    background-color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.contenedor {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    margin: 8px auto;
+}
+
+span.psw {
+    padding-top: 16px;
+    width: 100%;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label[for="uname"],label[for="psw"],label[for="check"]{
+    margin: 8px auto;
+}
