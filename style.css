@@ -306,3 +306,10 @@ input[type=text], input[type=password] {
 label[for="uname"],label[for="psw"],label[for="check"]{
     margin: 8px auto;
 }
+
+.equis{
+    display: flex;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
