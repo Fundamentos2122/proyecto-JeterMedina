@@ -95,7 +95,7 @@ h2{
     color: black;
 }
 
-.descripcion-prodcuto{
+.descripcion-producto{
     text-align: justify;
     padding: 0 var(--padding-x);
 }
@@ -312,4 +312,117 @@ label[for="uname"],label[for="psw"],label[for="check"]{
     background-color: white;
     color: black;
     position: absolute;
+}
+/*------------------------- */
+.usuarios > .usuario{
+    padding: 3em;
+}
+
+.administrador-view{
+    background-color: lightgray;
+    margin: 3em;
+    color: black;
+    border-radius: var(--borde-radio);
+}
+
+.img-perfil{
+    border-radius: var(--borde-radio) var(--borde-radio);
+    max-width: 100%;
+    width: 25%;
+    height: 25%;
+}
+
+.usuario{
+    width: 100%;
+}
+
+.usuario-div{
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.nombre-usuario{
+    font-size: 1.25em;
+    color: black;
+    align-self: center;
+    padding: 1em;
+}
+#cbox-activo-usuario{
+    font-size: 1.25em;
+    color: black;
+    align-self: center;
+}
+
+.publicaciones-admi{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 0.5em;
+}
+
+.img-productoAdmi{
+    border-radius: var(--borde-radio) var(--borde-radio);
+    max-width: 100%;
+    width: 15%;
+    height: 15%;
+}
+
+.nombre-producto{
+    font-size: 1.25em;
+    color: black;
+    align-self: center;
+    padding: 1em;
+}
+
+#cbox-activo-producto{
+    font-size: 1.25em;
+    color: black;
+    align-self: center;
+}
+
+/*--------------------------*/
+
+.publicaciones-perfil{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 0.5em;
+}
+
+.img-productoPerfil{
+    border-radius: var(--borde-radio) var(--borde-radio);
+    max-width: 100%;
+    width: 15%;
+    height: 15%;
+}
+
+.abajo{
+    padding: 0.5em;
+}
+
+.cuerpo{
+    display: flex;
+    height: 300px;
+}
+
+.cuerpo-exterior{
+    background-color: white;
+}
+
+.izquierda{
+    border-style:outset;
+    border-color: lightgray;
+    margin: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.dentro-izq{
+}
+
+.img-perfil2{
+    width: 48%;
+display: inline-block;
 }
